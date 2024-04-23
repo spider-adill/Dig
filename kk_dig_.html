@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moving GIF with Title</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #6aa645; /* Reddish-black background */
+    }
+    h1 {
+        font-size: 7em; /* Adjust size as needed */
+        color: white; /* Text color */
+        text-align: center;
+        margin-top: 50px; /* Adjust spacing from the top */
+    }
+    #container {
+        position: relative;
+        width: 100%;
+        height: 200px; /* Adjust height as needed */
+        overflow: hidden;
+    }
+    #gif1 {
+        position: absolute;
+        top: 0;
+        left: -100px; /* Initial position outside the container */
+        width: 150px; /* Adjust width as needed */
+        height: auto;
+        animation: moveGif1 30s linear infinite; /* Adjust duration as needed */
+    }
+    @keyframes moveGif1 {
+        0% { left: -100px; } /* Initial position */
+        100% { left: calc(100% + 100px); } /* Final position */
+    }
+</style>
+</head>
+<body>
+    <h1>Dig Dig Dig !!</h1>
+    <div id="container">
+        <img id="gif1" src="https://i.redd.it/dymzw5tb4mu61.gif" alt="Moving GIF">
+    </div>
+    <!--
+  Spiders are fascinating creatures found in diverse habitats worldwide. They belong to the class Arachnida and order Araneae. With over 48,000 known species, spiders exhibit a remarkable diversity in size, coloration, behavior, and habitat preferences. Here are some prominent types of spiders:
+
+  1. Orb-Weaver Spiders:
+     Orb-weaver spiders are known for their intricate, circular webs constructed with radial and spiral strands. They typically wait in the center of the web for prey to become ensnared. Examples include the garden spider (Araneus diadematus) and the golden silk orb-weaver (Nephila spp.).
+
+  2. Jumping Spiders:
+     Jumping spiders are characterized by their agility and excellent vision. They use their powerful legs to pounce on prey with remarkable precision. These spiders are known for their distinctive eye arrangement, with two large front-facing eyes for depth perception. Notable species include the regal jumping spider (Phidippus regius) and the zebra spider (Salticus scenicus).
+
+  3. Wolf Spiders:
+     Wolf spiders are robust and agile hunters that actively pursue prey on the ground. Unlike web-building spiders, they rely on their speed and camouflage to capture insects. Wolf spiders are known for carrying their egg sacs attached to their spinnerets until the eggs hatch. Notable species include the Carolina wolf spider (Hogna carolinensis) and the rabid wolf spider (Rabidosa rabida).
+
+  4. Tarantulas:
+     Tarantulas are large, hairy spiders belonging to the family Theraphosidae. Despite their intimidating appearance, most tarantulas are docile and pose little threat to humans. They are primarily found in tropical and subtropical regions, often residing in burrows or silk-lined retreats. Popular pet species include the Chilean rose tarantula (Grammostola rosea) and the Mexican redknee tarantula (Brachypelma smithi).
+
+  5. Crab Spiders:
+     Crab spiders are named for their sideways movement and crab-like appearance. They often ambush prey on flowers, using their camouflage to blend in with the surroundings. Crab spiders do not build webs; instead, they rely on stealth and patience to capture insects. Notable examples include the goldenrod crab spider (Misumena vatia) and the flower crab spider (Thomisus spp.).
+
+  6. Fishing Spiders:
+     Fishing spiders are semi-aquatic spiders capable of walking on water surfaces. They use their elongated legs to distribute their weight, enabling them to move effortlessly across ponds, streams, and other water bodies. Fishing spiders are skilled hunters, preying on aquatic insects and small fish. Notable species include the raft spider (Dolomedes fimbriatus) and the nursery web spider (Pisaurina mira).
+
+  These are just a few examples of the diverse array of spiders found worldwide. Each type has evolved unique adaptations and behaviors to thrive in its respective part2: "0nly_th3n_th353_chall3ng35"  ecological niche, contributing to the complex and fascinating world of arachnids.
+-->
+
+</body>
+</html>
